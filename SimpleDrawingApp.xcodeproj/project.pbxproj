@@ -15,6 +15,8 @@
 		62CB91A11C3D54FE00B314EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CB919F1C3D54FE00B314EE /* LaunchScreen.storyboard */; };
 		62CB91AC1C3D54FE00B314EE /* SimpleDrawingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CB91AB1C3D54FE00B314EE /* SimpleDrawingAppTests.m */; };
 		62CB91B71C3D54FE00B314EE /* SimpleDrawingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CB91B61C3D54FE00B314EE /* SimpleDrawingAppUITests.m */; };
+		62CB91C51C3D554D00B314EE /* BackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CB91C41C3D554D00B314EE /* BackgroundImage.png */; };
+		62CB91C81C3D5FF300B314EE /* CanvasUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CB91C71C3D5FF300B314EE /* CanvasUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		62CB91B21C3D54FE00B314EE /* SimpleDrawingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDrawingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CB91B61C3D54FE00B314EE /* SimpleDrawingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDrawingAppUITests.m; sourceTree = "<group>"; };
 		62CB91B81C3D54FE00B314EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CB91C41C3D554D00B314EE /* BackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundImage.png; sourceTree = "<group>"; };
+		62CB91C61C3D5FF300B314EE /* CanvasUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasUIView.h; sourceTree = "<group>"; };
+		62CB91C71C3D5FF300B314EE /* CanvasUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +110,13 @@
 				62CB91951C3D54FE00B314EE /* AppDelegate.m */,
 				62CB91971C3D54FE00B314EE /* ViewController.h */,
 				62CB91981C3D54FE00B314EE /* ViewController.m */,
+				62CB91C61C3D5FF300B314EE /* CanvasUIView.h */,
+				62CB91C71C3D5FF300B314EE /* CanvasUIView.m */,
 				62CB919A1C3D54FE00B314EE /* Main.storyboard */,
 				62CB919D1C3D54FE00B314EE /* Assets.xcassets */,
 				62CB919F1C3D54FE00B314EE /* LaunchScreen.storyboard */,
 				62CB91A21C3D54FE00B314EE /* Info.plist */,
+				62CB91C41C3D554D00B314EE /* BackgroundImage.png */,
 				62CB91911C3D54FE00B314EE /* Supporting Files */,
 			);
 			path = SimpleDrawingApp;
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62CB91A11C3D54FE00B314EE /* LaunchScreen.storyboard in Resources */,
+				62CB91C51C3D554D00B314EE /* BackgroundImage.png in Resources */,
 				62CB919E1C3D54FE00B314EE /* Assets.xcassets in Resources */,
 				62CB919C1C3D54FE00B314EE /* Main.storyboard in Resources */,
 			);
@@ -272,6 +281,7 @@
 			files = (
 				62CB91991C3D54FE00B314EE /* ViewController.m in Sources */,
 				62CB91961C3D54FE00B314EE /* AppDelegate.m in Sources */,
+				62CB91C81C3D5FF300B314EE /* CanvasUIView.m in Sources */,
 				62CB91931C3D54FE00B314EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

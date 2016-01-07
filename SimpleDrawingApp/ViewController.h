@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CanvasUIView.h"
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface ViewController : UIViewController
+- (IBAction)didTapPenSelectionBtn:(id)sender;
+- (IBAction)didTapErazerBtn:(id)sender;
+- (IBAction)didTapSaveBtn:(id)sender;
+
+@property (weak, nonatomic) IBOutlet CanvasUIView *canvas;
 
 
 @end
